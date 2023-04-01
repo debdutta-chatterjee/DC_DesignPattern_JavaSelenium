@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import com.design.patterns.singleton.util.PropertiesUtil;
+import com.design.patterns.singletonUtil.PropertiesUtil;
 import com.design.principles.openclose.PropertyType;
 import com.test.base.BaseTest;
 

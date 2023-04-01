@@ -5,5 +5,6 @@ public enum PropertyType {
 	FlipkartUrl,
 	AmazonUrl,
 	Browser,
-	Chrome_Driver
+	Chrome_Driver,
+	EAPatternUrl
 }

@@ -2,7 +2,7 @@ package com.design.patterns.template;
 
 import org.openqa.selenium.WebDriver;
 
-import com.design.patterns.singleton.util.UrlResolver;
+import com.design.patterns.singletonUtil.UrlResolver;
 import com.design.patterns.template.pages.AmazonHomePage;
 import com.design.patterns.template.pages.AmazonSearchPage;
 import com.design.principles.openclose.ConfigProfile;

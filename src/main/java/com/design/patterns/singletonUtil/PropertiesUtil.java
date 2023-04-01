@@ -1,4 +1,4 @@
-package com.design.patterns.singleton.util;
+package com.design.patterns.singletonUtil;
 
 import java.io.File;
 import java.io.FileInputStream;

@@ -27,14 +27,15 @@ public class BaseTest {
 	@AfterTest
 	public void adfterTest()
 	{
-		Uninterruptibles.sleepUninterruptibly(1, TimeUnit.SECONDS);
-		driver.close();
+		//Uninterruptibles.sleepUninterruptibly(1, TimeUnit.SECONDS);
+		//driver.close();
 	}
 	
 	@AfterSuite
 	public void afterSuite()
 	{
 		Uninterruptibles.sleepUninterruptibly(1, TimeUnit.SECONDS);
+		driver.close();
 		driver.quit();
 	}	
 }

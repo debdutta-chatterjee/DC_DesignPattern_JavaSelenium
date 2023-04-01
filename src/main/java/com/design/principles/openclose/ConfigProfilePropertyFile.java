@@ -1,6 +1,6 @@
 package com.design.principles.openclose;
 
-import com.design.patterns.singleton.util.PropertiesUtil;
+import com.design.patterns.singletonUtil.PropertiesUtil;
 
 public class ConfigProfilePropertyFile implements ConfigProfile{
 
