@@ -6,5 +6,8 @@ public enum PropertyType {
 	AmazonUrl,
 	Browser,
 	Chrome_Driver,
-	EAPatternUrl
+	EAPatternUrl,
+	DecoratorPatternUrl,
+	CommandPatternUrl,
+	StrategyPatternUrl
 }
